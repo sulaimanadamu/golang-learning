@@ -25,7 +25,7 @@ func main() {
 		flag := 0
 		if flag < 5 {
 			skudoGuess = rand.Intn(10) + 1
-			fmt.Println(skudoGuess)
+			//fmt.Println(skudoGuess)
 			flag++
 			fmt.Println("Enter the number you think i guess")
 			fmt.Scanf("%d", &guessed)
